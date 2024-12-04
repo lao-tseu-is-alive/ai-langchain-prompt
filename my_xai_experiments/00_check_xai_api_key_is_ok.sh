@@ -5,7 +5,7 @@ if [ -f $ENV_FILENAME ]; then
     # shellcheck disable=SC1090
     source <(sed -e '/^#/d;/^\s*$/d' -e "s/'/'\\\''/g" -e "s/=\(.*\)/='\1'/g" $ENV_FILENAME )
     echo "Checking if your XAI_API_KEY env is ok... XAI_API_KEY:${XAI_API_KEY}"
-    curl https://api.x.ai/v1/chat/completions \
+    curl -s https://api.x.ai/v1/chat/completions \
       -H "Content-Type: application/json" \
       -H "Authorization: Bearer $XAI_API_KEY" \
   -d '{
@@ -25,4 +25,7 @@ if [ -f $ENV_FILENAME ]; then
       }' |jq
     set +a
     echo "XAI_API_KEY is ok."
+else
+  echo "## 💥💥 your env file : ${ENV_FILENAME} was not found"
+  exit 1
 fi
