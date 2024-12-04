@@ -3,7 +3,7 @@ Introduction to LangChain, a powerful framework for large language model (LLM) a
 
 ### More information:
 
-+ Examples coming from [Linkedin Learning](https://www.linkedin.com/learning/) Course [Prompt Engineering with LangChain](https://www.linkedin.com/learning/prompt-engineering-with-langchain)
++ Examples in Ex_Files_Prompt_Engineering_LangChain directory are coming from [Linkedin Learning](https://www.linkedin.com/learning/) Course [Prompt Engineering with LangChain](https://www.linkedin.com/learning/prompt-engineering-with-langchain)
 + [LangChain](https://python.langchain.com/docs/introduction/)
 + X.ai API example: [api docs for x.ai](https://docs.x.ai/api/integrations#openai-sdk)
 + Get your [Gemini API key](https://ai.google.dev/gemini-api/docs/api-key)
