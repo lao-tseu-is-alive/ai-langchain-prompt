@@ -7,4 +7,4 @@ Introduction to LangChain, a powerful framework for large language model (LLM) a
 + [LangChain](https://python.langchain.com/docs/introduction/)
 + X.ai API example: [api docs for x.ai](https://docs.x.ai/api/integrations#openai-sdk)
 + Get your [Gemini API key](https://ai.google.dev/gemini-api/docs/api-key)
-+ 
++ Manage your [Gemini API key] in Google AI Studio(https://aistudio.google.com/app/apikey)
